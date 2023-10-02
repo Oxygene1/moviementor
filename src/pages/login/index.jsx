@@ -2,8 +2,9 @@ import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { useLoginMutation } from "../../app/api";
 import { toast } from "react-hot-toast";
-import { setUserValues } from "../../redux/authSlice"; // Import the setUserValues action
+import { setUserValues } from "../../redux/authSlice";
 import { useNavigate } from "react-router-dom";
+
 export const LoginScreen = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
@@ -25,8 +26,8 @@ export const LoginScreen = () => {
         dispatch(
           setUserValues({
             token: res.data.token,
-            email: res.data.email, // Assuming you have an email field in the response
-            username: res.data.username, // Assuming you have a username field in the response
+            email: res.data.email,
+            username: res.data.username,
           })
         );
         navigate("/movies");
@@ -40,45 +41,43 @@ export const LoginScreen = () => {
     }
   };
 
-  //   const userInfo = useSelector((state) => state.auth);
-
   return (
-    <>
+    <div className="h-screen bg-gradient-to-r from-black to-gray-900 flex items-center justify-center">
       {loading && (
-        <div className="absolute top-0 left-0 w-full h-screen bg-black/30 flex items-center">
-          <p className="text-white text-center">
-            Please wait while we log you in...
-          </p>
+        <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+          <p className="text-white">Please wait while we log you in...</p>
         </div>
       )}
-      <div>
-        <h1 className="text-center">Login</h1>
-        <div>
-          Username:{" "}
-          <input
-            value={username}
-            onChange={(e) => setUsername(e.target.value)}
-            type="text"
-          />
-        </div>
-        <div>
-          Email Address:{" "}
-          <input
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            type="email"
-          />
-        </div>
-        <div>
-          Password:{" "}
-          <input
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            type="password"
-          />
-        </div>
-        <button onClick={handleLogin}>Login</button>
+      <div className="bg-white p-6 rounded-lg shadow-lg w-96">
+        <h1 className="text-3xl font-semibold text-center mb-4">Sign In</h1>
+        <input
+          className="w-full border rounded-lg px-4 py-2 mb-4"
+          value={username}
+          onChange={(e) => setUsername(e.target.value)}
+          type="text"
+          placeholder="Username"
+        />
+        <input
+          className="w-full border rounded-lg px-4 py-2 mb-4"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          type="email"
+          placeholder="Email Address"
+        />
+        <input
+          className="w-full border rounded-lg px-4 py-2 mb-4"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+          type="password"
+          placeholder="Password"
+        />
+        <button
+          className="w-full bg-red-600 text-white py-2 rounded-lg hover:bg-red-700 transition duration-300"
+          onClick={handleLogin}
+        >
+          Sign In
+        </button>
       </div>
-    </>
+    </div>
   );
 };
