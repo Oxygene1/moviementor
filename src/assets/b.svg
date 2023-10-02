@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="603" height="397" viewBox="0 0 603 397">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_140" data-name="Rectangle 140" width="603" height="397"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="1.102" y1="0.108" x2="0.252" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff1717"/>
+      <stop offset="1" stop-color="#bf1010"/>
+    </linearGradient>
+  </defs>
+  <g id="b" clip-path="url(#clip-path)">
+    <path id="Path_11" data-name="Path 11" d="M68.573,662.146h0a69.649,69.649,0,0,1-7.006-.354,68.75,68.75,0,0,1-6.814-1.04c-2.209-.452-4.42-1.021-6.572-1.69-2.128-.662-4.247-1.438-6.3-2.306-2.034-.86-4.051-1.832-5.994-2.888s-3.832-2.2-5.654-3.435-3.59-2.553-5.279-3.947-3.324-2.88-4.87-4.426-3.035-3.184-4.426-4.87-2.723-3.466-3.948-5.279-2.387-3.724-3.435-5.654-2.027-3.96-2.888-5.994c-.868-2.053-1.645-4.173-2.306-6.3-.669-2.151-1.238-4.362-1.69-6.572a68.747,68.747,0,0,1-1.039-6.809,69.6,69.6,0,0,1,0-14.022,68.75,68.75,0,0,1,1.04-6.808c.452-2.209,1.021-4.42,1.69-6.572.662-2.127,1.438-4.247,2.306-6.3.86-2.034,1.832-4.051,2.888-5.994s2.2-3.832,3.435-5.654,2.553-3.589,3.948-5.279,2.88-3.324,4.426-4.87,3.184-3.035,4.87-4.426,3.466-2.723,5.279-3.948,3.724-2.387,5.654-3.435,3.96-2.027,5.994-2.888c2.053-.868,4.173-1.645,6.3-2.306,2.152-.669,4.362-1.238,6.572-1.69a68.745,68.745,0,0,1,6.809-1.039A69.671,69.671,0,0,1,68.573,525Z" transform="translate(371.994 -395.52)" fill="#ff1717"/>
+    <path id="Path_12" data-name="Path 12" d="M7.387,124.922h185.37q.319,0,.634-.027t.626-.08q.31-.053.615-.133t.6-.186q.288-.1.565-.228t.543-.273q.266-.148.519-.317t.493-.36L0,0V117.535q0,.374.037.742a7.319,7.319,0,0,0,.544,2.133q.139.33.309.643t.368.608q.2.294.425.569t.481.53q.254.254.53.481t.569.425q.294.2.607.368t.643.309a7.313,7.313,0,0,0,2.133.544Q7.013,124.922,7.387,124.922Z" transform="translate(153.177 141.703)" fill="#ff1717"/>
+    <path id="Path_13" data-name="Path 13" d="M954.768,1029.386h-188.2a7.357,7.357,0,0,1-4.579-1.59L962.155,904.463V1022a7.381,7.381,0,0,1-7.387,7.387Z" transform="translate(-606.189 -762.761)" fill="url(#linear-gradient)"/>
+    <path id="Path_14" data-name="Path 14" d="M9.042,126.832c-4.994,0-9.042-3.624-9.042-8.093V84.286H0v-.032A42.586,42.586,0,0,1,81.652,67.3q-.117-1.93-.117-3.889a63.416,63.416,0,0,1,126.8-1.926l.029,0v57.252c0,4.469-4.047,8.093-9.041,8.093Z" transform="translate(154.986 6.969)" fill="#ff1717"/>
+    <ellipse id="Ellipse_18" data-name="Ellipse 18" cx="37" cy="36.5" rx="37" ry="36.5" transform="translate(264 42)" fill="#fff"/>
+    <ellipse id="Ellipse_19" data-name="Ellipse 19" cx="28" cy="27.5" rx="28" ry="27.5" transform="translate(169 60)" fill="#fff"/>
+    <rect id="Rectangle_135" data-name="Rectangle 135" width="24" height="3" transform="translate(153 160)" fill="#fff"/>
+    <rect id="Rectangle_136" data-name="Rectangle 136" width="24" height="3" transform="translate(153 181)" fill="#fff"/>
+    <rect id="Rectangle_137" data-name="Rectangle 137" width="24" height="4" transform="translate(153 201)" fill="#fff"/>
+    <rect id="Rectangle_138" data-name="Rectangle 138" width="24" height="3" transform="translate(153 222)" fill="#fff"/>
+    <rect id="Rectangle_139" data-name="Rectangle 139" width="24" height="4" transform="translate(153 243)" fill="#fff"/>
+    <text id="MENTOR" transform="translate(0 375)" fill="#ff1717" font-size="139" font-family="Segoe UI" font-weight="700"><tspan x="0" y="0">MENTOR</tspan></text>
+  </g>
+</svg>
